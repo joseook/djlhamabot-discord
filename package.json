@@ -1,0 +1,36 @@
+{
+  "name": "dj-lhama-bot",
+  "version": "1.0.0",
+  "description": "DJ Lhama - Um bot de música completo para Discord criado por Joseok",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "music",
+    "dj-lhama",
+    "joseok"
+  ],
+  "author": "Joseok",
+  "license": "MIT",
+  "dependencies": {
+    "@discord-player/core": "^0.1.1",
+    "@discord-player/extractor": "^4.5.1",
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.1",
+    "@distube/ytdl-core": "^4.16.12",
+    "discord-player": "^6.7.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "ffmpeg-static": "^5.2.0",
+    "genius-lyrics": "^4.4.6",
+    "node-fetch": "^2.7.0",
+    "youtube-sr": "^4.3.11"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
